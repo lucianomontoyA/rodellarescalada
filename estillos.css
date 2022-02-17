@@ -1,4 +1,4 @@
-body{background-color: lightblue;}
+body{background-color: rgb(67, 68, 68);}
 
 .jumbotron{
     background-image: url(rodellarPaisaje.jpg);
@@ -23,8 +23,29 @@ body{background-color: lightblue;}
     h2{
         text-align: center;
         color:rgb(255, 255, 158);
-        padding: 10px;  
+        padding: 10px; 
+        text-transform: uppercase; 
+        
+
     }
     .btn-danger{
         background-color:rgb(255, 255, 158); 
     }
+    .row{
+        padding: 5%;
+        margin: 3px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 5%;
+
+    }
+    
+
+    
+    .form-group{
+        margin: 5px;
+        padding: 5px;
+    }
+
+    
