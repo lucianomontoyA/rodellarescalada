@@ -1,0 +1,72 @@
+body {
+  background-color: #6A2C70;
+}
+
+.jumbotron {
+  background-image: url(img/rodellarPaisaje.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #F9ED69;
+  text-shadow: 3px, 3px, 3px, black;
+  text-transform: capitalize;
+  border-radius: 0%;
+  margin: 0%;
+}
+
+.jumbotron h1 {
+  text-transform: capitalize;
+  color: #F9ED69;
+}
+
+.navbar-brand {
+  color: #F9ED69 !important;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  color: #F9ED69;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.btn-danger {
+  background-color: #ffff9e;
+}
+
+.row {
+  padding: 5%;
+  margin: 3px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5%;
+}
+
+.form-group {
+  margin: 5px;
+  padding: 5px;
+}
+
+.btn-primari {
+  align-items: center !important;
+}
+
+.form-check-input {
+  align-items: center;
+}
+
+#dondeestamos {
+  color: #F08A5D;
+}
+
+h3 {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #F08A5D;
+}
+
+div {
+  background-color: #6A2C70;
+}/*# sourceMappingURL=estilos.css.map */

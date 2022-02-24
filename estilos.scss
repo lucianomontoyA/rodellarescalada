@@ -1,0 +1,76 @@
+$color1:#F9ED69;
+$color2:#F08A5D  ;
+$color3:#B83B5E;
+$color4:#6A2C70;
+
+
+
+body{
+    background-color:$color4;
+ }
+
+.jumbotron{
+    background-image: url(img/rodellarPaisaje.jpg);
+    background-size: cover;
+    background-position: center;
+    color:$color1;
+    text-shadow: 3px,3px,3px,black;
+    text-transform:capitalize;
+    border-radius: 0%;
+    margin:0%;
+    }
+
+    .jumbotron h1{
+    text-transform: capitalize;
+    color:$color1
+    }
+
+    .navbar-brand{
+        color:$color1 !important;
+        text-transform: uppercase;
+    }
+    h2{
+        text-align: center;
+        color:$color1;
+        padding: 10px; 
+        text-transform: uppercase; 
+        
+
+    }
+    .btn-danger{
+        background-color:rgb(255, 255, 158); 
+    }
+    .row{
+        padding: 5%;
+        margin: 3px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 5%;
+
+    }
+    
+
+    
+    .form-group{
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .btn-primari{
+        align-items: center !important;
+    }
+    .form-check-input{
+        align-items: center;
+    }
+    #dondeestamos{
+    color: $color2;
+    }
+    h3{
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: underline;
+        color:#F08A5D}
+    div{
+        background-color: #6A2C70;
+    }
